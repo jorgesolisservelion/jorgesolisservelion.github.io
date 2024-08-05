@@ -323,17 +323,17 @@ print(conversion_rates)
 
 ```
 
+| Publisher.Name   | Total_Clicks | Total_Bookings | Conversion_Rate |
+|------------------|--------------|----------------|-----------------|
+| Yahoo - US       | 45198        | 656            | 1.4513917       |
+| MSN - US         | 10788        | 140            | 1.2977382       |
+| MSN - Global     | 10494        | 122            | 1.1625691       |
+| Google - Global  | 59918        | 598            | 0.9980306       |
+| Google - US      | 180208       | 1453           | 0.8062905       |
+| Overture - Global| 44661        | 163            | 0.3649717       |
+| Overture - US    | 105541       | 263            | 0.2491923       |
 
-
-| Publisher.Name | Total_Clicks | Total_Bookings | Conversion_Rate |
-|----------------|--------------|----------------|-----------------|
-| Yahoo - US     | 45198        | 656            | 1.4513917       |
-| MSN - US       | 10788        | 140            | 1.2977382       |
-| MSN - Global   | 10494        | 122            | 1.1625691       |
-| Google - Global| 59918        | 598            | 0.9980306       |
-| Google - US    | 180208       | 1453           | 0.8062905       |
-| Overture - Global| 44661      | 163            | 0.3649717       |
-| Overture - US  | 105541       | 263            | 0.2491923       |
+**Explanation**
 
 This code is created to give an overview of the rate at which each Publishers, clicks turns to booking. This shows how each cost the client pays for each click for every publisher turns to revenue to the client. Total bookings were divided by total clicks to show the rate clicks are converted. This shows how effective publishers have been able to push adverts to the right customers. This have been arranged in descending order for proper analysis. The results showed that Yahoo - US gave a higher conversion rate of 1.45%. Meaning that 1.45% of every click we pay for turns into booking which is the primary aim for business.
 

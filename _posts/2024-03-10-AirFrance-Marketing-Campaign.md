@@ -1201,3 +1201,5 @@ This project successfully developed a predictive model for forecasting clicks on
 3. Lay, D. (n.d.). A Guide To Data Driven Decision Making: What It Is, Its Importance, & How To Implement It. Retrieved from [tableau](https://www.tableau.com/learn/articles/data-driven-decision-making)
 
 4. Ooi, J. (2023, 08 18). The Importance of Keyword Research in SEM: Maximizing Your Online Visibility. Retrieved from [nightowl](https://nightowl.sg/blog/the-importance-of-keyword-research-in-sem-maximizing-your-online-visibility/)
+
+This project is part of the Business Challenge II within the master's program in Business Analytics at Hult International Business School and is part of an internal class competition on Kaggle.

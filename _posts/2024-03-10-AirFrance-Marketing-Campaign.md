@@ -322,6 +322,9 @@ conversion_rates <- data %>%
 print(conversion_rates)
 
 ```
+
+
+
 | Publisher.Name | Total_Clicks | Total_Bookings | Conversion_Rate |
 |----------------|--------------|----------------|-----------------|
 | Yahoo - US     | 45198        | 656            | 1.4513917       |
@@ -350,6 +353,7 @@ net_returns_publisher <- data %>%
 # Display Results
 print(net_returns_publisher)
 ```
+
 | Publisher.Name   | Net_Returns  |
 |------------------|--------------|
 | Google - US      | 1316771.7    |
@@ -359,6 +363,7 @@ print(net_returns_publisher)
 | MSN - US         | 165488.2     |
 | Overture - Global| 129901.6     |
 | MSN - Global     | 128099.1     |
+
 
 ```r
 # Visualization 6
@@ -499,6 +504,7 @@ datatable(kayak_tab, options = list(pageLength = 5, scrollX = TRUE))
 # Display kayak data as a tabular output
 print(kayak_tab)
 ```
+
 
 | Search_Engine | Clicks | Media_Cost | Total_Bookings | Avg_Ticket | Total_Revenue | Net_Revenue |
 |---------------|--------|------------|----------------|------------|---------------|-------------|

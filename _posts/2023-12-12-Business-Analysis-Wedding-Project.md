@@ -10,7 +10,7 @@ toc: true
 toc_label : "Navigate"
 ---
 
-# Are Wedding Providers with Sustainable Practices More Cost Effective?
+## Are Wedding Providers with Sustainable Practices More Cost Effective?
 By: Jorge Solis<br>
 Hult International Business School<br>
 <br>

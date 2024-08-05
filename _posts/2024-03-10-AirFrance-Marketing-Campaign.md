@@ -499,6 +499,7 @@ datatable(kayak_tab, options = list(pageLength = 5, scrollX = TRUE))
 # Display kayak data as a tabular output
 print(kayak_tab)
 ```
+
 | Search_Engine | Clicks | Media_Cost | Total_Bookings | Avg_Ticket | Total_Revenue | Net_Revenue |
 |---------------|--------|------------|----------------|------------|---------------|-------------|
 | Kayak         | 2839   | 3567.13    | 208            | 1123.53    | 233694        | 230126.9    |
@@ -522,6 +523,7 @@ Cost_per_Click_Publisher <- data %>%
 # Display the calculated Cost-Per_Click for each publisher
 print(Cost_per_Click_Publisher)
 ```
+
 | Publisher.Name   | Total_Cost | Total_Clicks | Cost_Per_Click |
 |------------------|------------|--------------|----------------|
 | Google - Global  | 113007.35  | 59918        | 1.886033       |
@@ -548,6 +550,7 @@ Match_type_metrics <- data %>%
 # Display the calculated metrics
 print(Match_type_metrics)
 ```
+
 | Match.Type     | Total_Clicks | Total_Impressions | Total_Bookings | Conversion_Rate |
 |----------------|--------------|-------------------|----------------|-----------------|
 | Advanced       | 88514        | 14809846          | 758            | 0.85636171      |
@@ -555,6 +558,7 @@ print(Match_type_metrics)
 | Exact          | 45294        | 236914            | 672            | 1.48364022      |
 | Not Specified  | 1070         | 592612            | 1              | 0.09345794      |
 | Standard       | 106886       | 19021090          | 324            | 0.30312670      |
+
 
 ## Top three actionable insights
 

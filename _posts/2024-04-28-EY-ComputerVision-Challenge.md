@@ -1,7 +1,7 @@
 ---
 title: "EY Data Challenge: Coastal Infrastructure Damage Detection using Computer Vision"
 date: 2024-04-28
-tags: [ data science, deep learning, image recognition, YOLO, python]
+tags: [data science, deep learning, image recognition, YOLO, python]
 header:
   image: "/images/EYDataChallenge/EY_Open_Science_Data_Challenge.jpg"
 excerpt: "(Computer Vision, Python, DeepLearning) A machine learning project to detect and classify coastal infrastructure damage using satellite images and YOLO."

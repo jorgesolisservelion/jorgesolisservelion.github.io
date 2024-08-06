@@ -356,13 +356,13 @@ print(f"Recall for Class 1: {recall_1:.4f}")
 ```
 Confusion Matrix for Class 1 (undamaged residential building)
 
-True Positives: 59
-False Positives: 73
-True Negatives: 4429
-False Negatives: 104
+- **True Positives**: 59
+- **False Positives**: 73
+- **True Negatives**: 4429
+- **False Negatives**: 104
 
-Precision for Class 1: 0.4470
-Recall for Class 1: 0.3620
+- **Precision for Class 1**: 0.4470
+- **Recall for Class 1**: 0.3620
 
 
 #### Class 2 Damaged residential buildings
@@ -405,13 +405,13 @@ print(f"Recall for Class 2: {recall_2:.4f}")
 ```
 Confusion Matrix for Class 2 (damaged residential building)
 
-True Positives: 379
-False Positives: 173
-True Negatives: 3640
-False Negatives: 473
+- **True Positives**: 379
+- **False Positives**: 173
+- **True Negatives**: 3640
+- **False Negatives**: 473
 
-Precision for Class 2: 0.6866
-Recall for Class 2: 0.4448
+- **Precision for Class 2**: 0.6866
+- **Recall for Class 2**: 0.4448
 
 #### Class 3 Undamaged commercial building
 
@@ -454,13 +454,13 @@ print(f"Recall for Class 3: {recall_3:.4f}")
 
 Confusion Matrix for Class 3 (undamaged commercial building)
 
-True Positives: 173
-False Positives: 134
-True Negatives: 3970
-False Negatives: 388
+- **True Positives**: 173
+- **False Positives**: 134
+- **True Negatives**: 3970
+- **False Negatives**: 388
 
-Precision for Class 3: 0.5635
-Recall for Class 3: 0.3084
+- **Precision for Class 3**: 0.5635
+- **Recall for Class 3**: 0.3084
 
 #### Class 4 Damaged commercial building
 
@@ -503,17 +503,15 @@ print(f"Recall for Class 4: {recall_4:.4f}")
 
 Confusion Matrix for Class 4 (damaged commercial building)
 
-True Positives: 1853
-False Positives: 459
-True Negatives: 1543
-False Negatives: 810
+- **True Positives**: 1853
+- **False Positives**: 459
+- **True Negatives**: 1543
+- **False Negatives**: 810
 
-Precision for Class 2: 0.8015
-Recall for Class 2: 0.6958
+- **Precision for Class 2**: 0.8015
+- **Recall for Class 2**: 0.6958
 
-###
-
- Confusion Matrix Analysis
+### Confusion Matrix Analysis
 
 **Undamaged vs. Damaged Commercial Buildings**<br>
 Between undamaged and damaged commercial buildings, the model shows a notable difference in performance. It exhibits higher precision and recall for identifying damaged commercial buildings compared to undamaged ones. This indicates that model is more adept at correctly classifying damaged commercial buildings while minimizing false positives and false negatives in this category.

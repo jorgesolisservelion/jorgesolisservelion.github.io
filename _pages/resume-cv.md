@@ -5,4 +5,5 @@ permalink: /resume-cv/
  # image: "/images/zakim.jpg"
 ---
 
-![Jorge Solis](/images/resume.png)
+![Jorge Solis](/images/resume1.png)
+![Jorge Solis](/images/resume2.png)

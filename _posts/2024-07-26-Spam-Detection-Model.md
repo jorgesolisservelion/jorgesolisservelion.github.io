@@ -1,6 +1,6 @@
 ---
 title: "Real Case: Spam Detection Model for Fintech"
-date: 2024-08-10
+date: 2024-07-26
 tags: [machine learning, data science, deep learning, NLP, Python, AWS]
 header:
   image: "/images/SpamDetection/spam_detection.jpg"

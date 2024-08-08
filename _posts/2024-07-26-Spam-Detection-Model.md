@@ -104,7 +104,7 @@ feed_messages_df = pd.read_csv(
 
 ## Part II: Data Preparation - Base Modeling
 
-### Data Cleaning and Transformation
+### Data Cleaning
 
 ```python
 # Change the column types
@@ -170,7 +170,7 @@ metadata_df = feed_messages_df['metadata'].apply(safe_json_loads).apply(pd.Serie
 feed_messages_expanded_df = pd.concat([feed_messages_df, metadata_df], axis=1)
 ```
 
-## Part III: Exploratory Data Analysis (EDA) and Feature Engineering
+## Part III: Exploratory Data Analysis (EDA)
 
 ### Token Frequency Analysis
 
@@ -853,11 +853,11 @@ To deploy the spam detection API developed during my internship, I followed a st
 
 5. **Run the Uvicorn Server**: I started the Uvicorn server to serve the FastAPI application, making the API accessible over the internet. This allowed for real-time interaction and testing of the spam detection functionality.
 
-By following these steps, I successfully deployed the spam detection API on an AWS EC2 instance, making it accessible for further development, testing, and integration with the StockBossUp platform.
+By following these steps, I successfully deployed the spam detection API on an AWS EC2 instance, making it accessible for further development, testing, and integration with the Fintech platform.
 
 ## Conclusion
 
-Our spam detection model utilizes a combination of traditional machine learning models and state-of-the-art deep learning models to effectively classify text as spam or not spam. We implemented the model using Python and various data science libraries, and deployed it as a Flask API. The system will enhance user experience, improve content quality, and increase operational efficiency on the StockBossUp platform.
+Our spam detection model utilizes a combination of traditional machine learning models and state-of-the-art deep learning models to effectively classify text as spam or not spam. We implemented the model using Python and various data science libraries, and deployed it as a Flask API. The system will enhance user experience, improve content quality, and increase operational efficiency on the Fintech platform.
 
 ## Future Work
 
